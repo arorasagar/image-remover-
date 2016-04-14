@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007CE1CF1CC04BF0000D15F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007CE1CE1CC04BF0000D15F8 /* AppDelegate.swift */; };
+		007CE1D11CC04BF0000D15F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007CE1D01CC04BF0000D15F8 /* ViewController.swift */; };
+		007CE1D41CC04BF0000D15F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007CE1D21CC04BF0000D15F8 /* Main.storyboard */; };
+		007CE1D61CC04BF0000D15F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007CE1D51CC04BF0000D15F8 /* Assets.xcassets */; };
+		007CE1D91CC04BF0000D15F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007CE1D71CC04BF0000D15F8 /* LaunchScreen.storyboard */; };
+		007CE1E41CC04BF0000D15F8 /* ImageRemoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007CE1E31CC04BF0000D15F8 /* ImageRemoverTests.swift */; };
+		007CE1EF1CC04BF0000D15F8 /* ImageRemoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007CE1EE1CC04BF0000D15F8 /* ImageRemoverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		007CE1E01CC04BF0000D15F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007CE1C31CC04BF0000D15F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 007CE1CA1CC04BF0000D15F8;
+			remoteInfo = ImageRemover;
+		};
+		007CE1EB1CC04BF0000D15F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007CE1C31CC04BF0000D15F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 007CE1CA1CC04BF0000D15F8;
+			remoteInfo = ImageRemover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007CE1CB1CC04BF0000D15F8 /* ImageRemover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRemover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		007CE1CE1CC04BF0000D15F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		007CE1D01CC04BF0000D15F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		007CE1D31CC04BF0000D15F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		007CE1D51CC04BF0000D15F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		007CE1D81CC04BF0000D15F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		007CE1DA1CC04BF0000D15F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007CE1DF1CC04BF0000D15F8 /* ImageRemoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRemoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		007CE1E31CC04BF0000D15F8 /* ImageRemoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRemoverTests.swift; sourceTree = "<group>"; };
+		007CE1E51CC04BF0000D15F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007CE1EA1CC04BF0000D15F8 /* ImageRemoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRemoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		007CE1EE1CC04BF0000D15F8 /* ImageRemoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRemoverUITests.swift; sourceTree = "<group>"; };
+		007CE1F01CC04BF0000D15F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		007CE1C81CC04BF0000D15F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007CE1DC1CC04BF0000D15F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007CE1E71CC04BF0000D15F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007CE1C21CC04BF0000D15F8 = {
+			isa = PBXGroup;
+			children = (
+				007CE1CD1CC04BF0000D15F8 /* ImageRemover */,
+				007CE1E21CC04BF0000D15F8 /* ImageRemoverTests */,
+				007CE1ED1CC04BF0000D15F8 /* ImageRemoverUITests */,
+				007CE1CC1CC04BF0000D15F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		007CE1CC1CC04BF0000D15F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007CE1CB1CC04BF0000D15F8 /* ImageRemover.app */,
+				007CE1DF1CC04BF0000D15F8 /* ImageRemoverTests.xctest */,
+				007CE1EA1CC04BF0000D15F8 /* ImageRemoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		007CE1CD1CC04BF0000D15F8 /* ImageRemover */ = {
+			isa = PBXGroup;
+			children = (
+				007CE1CE1CC04BF0000D15F8 /* AppDelegate.swift */,
+				007CE1D01CC04BF0000D15F8 /* ViewController.swift */,
+				007CE1D21CC04BF0000D15F8 /* Main.storyboard */,
+				007CE1D51CC04BF0000D15F8 /* Assets.xcassets */,
+				007CE1D71CC04BF0000D15F8 /* LaunchScreen.storyboard */,
+				007CE1DA1CC04BF0000D15F8 /* Info.plist */,
+			);
+			path = ImageRemover;
+			sourceTree = "<group>";
+		};
+		007CE1E21CC04BF0000D15F8 /* ImageRemoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				007CE1E31CC04BF0000D15F8 /* ImageRemoverTests.swift */,
+				007CE1E51CC04BF0000D15F8 /* Info.plist */,
+			);
+			path = ImageRemoverTests;
+			sourceTree = "<group>";
+		};
+		007CE1ED1CC04BF0000D15F8 /* ImageRemoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				007CE1EE1CC04BF0000D15F8 /* ImageRemoverUITests.swift */,
+				007CE1F01CC04BF0000D15F8 /* Info.plist */,
+			);
+			path = ImageRemoverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		007CE1CA1CC04BF0000D15F8 /* ImageRemover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007CE1F31CC04BF0000D15F8 /* Build configuration list for PBXNativeTarget "ImageRemover" */;
+			buildPhases = (
+				007CE1C71CC04BF0000D15F8 /* Sources */,
+				007CE1C81CC04BF0000D15F8 /* Frameworks */,
+				007CE1C91CC04BF0000D15F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageRemover;
+			productName = ImageRemover;
+			productReference = 007CE1CB1CC04BF0000D15F8 /* ImageRemover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		007CE1DE1CC04BF0000D15F8 /* ImageRemoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007CE1F61CC04BF0000D15F8 /* Build configuration list for PBXNativeTarget "ImageRemoverTests" */;
+			buildPhases = (
+				007CE1DB1CC04BF0000D15F8 /* Sources */,
+				007CE1DC1CC04BF0000D15F8 /* Frameworks */,
+				007CE1DD1CC04BF0000D15F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007CE1E11CC04BF0000D15F8 /* PBXTargetDependency */,
+			);
+			name = ImageRemoverTests;
+			productName = ImageRemoverTests;
+			productReference = 007CE1DF1CC04BF0000D15F8 /* ImageRemoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		007CE1E91CC04BF0000D15F8 /* ImageRemoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007CE1F91CC04BF0000D15F8 /* Build configuration list for PBXNativeTarget "ImageRemoverUITests" */;
+			buildPhases = (
+				007CE1E61CC04BF0000D15F8 /* Sources */,
+				007CE1E71CC04BF0000D15F8 /* Frameworks */,
+				007CE1E81CC04BF0000D15F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007CE1EC1CC04BF0000D15F8 /* PBXTargetDependency */,
+			);
+			name = ImageRemoverUITests;
+			productName = ImageRemoverUITests;
+			productReference = 007CE1EA1CC04BF0000D15F8 /* ImageRemoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		007CE1C31CC04BF0000D15F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sagar Arora ";
+				TargetAttributes = {
+					007CE1CA1CC04BF0000D15F8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					007CE1DE1CC04BF0000D15F8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 007CE1CA1CC04BF0000D15F8;
+					};
+					007CE1E91CC04BF0000D15F8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 007CE1CA1CC04BF0000D15F8;
+					};
+				};
+			};
+			buildConfigurationList = 007CE1C61CC04BF0000D15F8 /* Build configuration list for PBXProject "ImageRemover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 007CE1C21CC04BF0000D15F8;
+			productRefGroup = 007CE1CC1CC04BF0000D15F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				007CE1CA1CC04BF0000D15F8 /* ImageRemover */,
+				007CE1DE1CC04BF0000D15F8 /* ImageRemoverTests */,
+				007CE1E91CC04BF0000D15F8 /* ImageRemoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		007CE1C91CC04BF0000D15F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007CE1D91CC04BF0000D15F8 /* LaunchScreen.storyboard in Resources */,
+				007CE1D61CC04BF0000D15F8 /* Assets.xcassets in Resources */,
+				007CE1D41CC04BF0000D15F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007CE1DD1CC04BF0000D15F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007CE1E81CC04BF0000D15F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007CE1C71CC04BF0000D15F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007CE1D11CC04BF0000D15F8 /* ViewController.swift in Sources */,
+				007CE1CF1CC04BF0000D15F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007CE1DB1CC04BF0000D15F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007CE1E41CC04BF0000D15F8 /* ImageRemoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007CE1E61CC04BF0000D15F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007CE1EF1CC04BF0000D15F8 /* ImageRemoverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		007CE1E11CC04BF0000D15F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 007CE1CA1CC04BF0000D15F8 /* ImageRemover */;
+			targetProxy = 007CE1E01CC04BF0000D15F8 /* PBXContainerItemProxy */;
+		};
+		007CE1EC1CC04BF0000D15F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 007CE1CA1CC04BF0000D15F8 /* ImageRemover */;
+			targetProxy = 007CE1EB1CC04BF0000D15F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		007CE1D21CC04BF0000D15F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				007CE1D31CC04BF0000D15F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		007CE1D71CC04BF0000D15F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				007CE1D81CC04BF0000D15F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		007CE1F11CC04BF0000D15F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		007CE1F21CC04BF0000D15F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		007CE1F41CC04BF0000D15F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageRemover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arora.ImageRemover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		007CE1F51CC04BF0000D15F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageRemover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arora.ImageRemover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		007CE1F71CC04BF0000D15F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageRemoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arora.ImageRemoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageRemover.app/ImageRemover";
+			};
+			name = Debug;
+		};
+		007CE1F81CC04BF0000D15F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageRemoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arora.ImageRemoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageRemover.app/ImageRemover";
+			};
+			name = Release;
+		};
+		007CE1FA1CC04BF0000D15F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImageRemoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arora.ImageRemoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImageRemover;
+			};
+			name = Debug;
+		};
+		007CE1FB1CC04BF0000D15F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImageRemoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arora.ImageRemoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImageRemover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		007CE1C61CC04BF0000D15F8 /* Build configuration list for PBXProject "ImageRemover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007CE1F11CC04BF0000D15F8 /* Debug */,
+				007CE1F21CC04BF0000D15F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007CE1F31CC04BF0000D15F8 /* Build configuration list for PBXNativeTarget "ImageRemover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007CE1F41CC04BF0000D15F8 /* Debug */,
+				007CE1F51CC04BF0000D15F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		007CE1F61CC04BF0000D15F8 /* Build configuration list for PBXNativeTarget "ImageRemoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007CE1F71CC04BF0000D15F8 /* Debug */,
+				007CE1F81CC04BF0000D15F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		007CE1F91CC04BF0000D15F8 /* Build configuration list for PBXNativeTarget "ImageRemoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007CE1FA1CC04BF0000D15F8 /* Debug */,
+				007CE1FB1CC04BF0000D15F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 007CE1C31CC04BF0000D15F8 /* Project object */;
+}
